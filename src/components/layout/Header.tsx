@@ -9,6 +9,8 @@ import {
   UserRoundCog,
   Menu,
 } from "lucide-react";
+import logo from "@/assets/logo.png";
+import flag from "@/assets/flag.png";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
@@ -47,11 +49,7 @@ export function Header() {
                 <Menu className="h-6 w-6" />
               </Button>
               <div className="flex items-center space-x-1">
-                <img
-                  src="/src/assets/logo.png"
-                  alt="Logo"
-                  className="h-8 w-8"
-                />
+                <img src={logo} alt="Logo" className="h-8 w-8" />
                 <h1 className="text-2xl text-[#013D29] mt-2 font-semibold">
                   deelly
                 </h1>
@@ -70,11 +68,7 @@ export function Header() {
           <div className="hidden md:flex items-center justify-between px-4 md:px-8 lg:mx-20">
             <div className="flex items-center space-x-2 md:space-x-6">
               <div className="flex items-center space-x-1">
-                <img
-                  src="/src/assets/logo.png"
-                  alt="Logo"
-                  className="h-10 w-10"
-                />
+                <img src={logo} alt="Logo" className="h-10 w-10" />
                 <h1 className="text-4xl text-[#013D29] mt-2 font-semibold">
                   deelly
                 </h1>
@@ -83,11 +77,7 @@ export function Header() {
                 variant="outline"
                 className="hidden md:flex items-center space-x-2 text-gray-700 border rounded-full px-4 py-2 outline outline-1 outline-green-700"
               >
-                <img
-                  src="/src/assets/flag.png"
-                  alt="Pakistan flag"
-                  className="w-6 h-6"
-                />
+                <img src={flag} alt="Pakistan flag" className="w-6 h-6" />
                 <span>Pakistan</span>
                 <ChevronDown className="pl-1 size-5 mt-1" />
               </Button>
