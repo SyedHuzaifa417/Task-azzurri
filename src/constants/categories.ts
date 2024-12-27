@@ -1,22 +1,26 @@
+import dineCat from "/src/assets/dineCat.png";
+import cleanCat from "/src/assets/cleanCat.png";
+import EntCat from "/src/assets/EntCat.png";
+import salonCat from "/src/assets/salonCat.png";
 export const CATEGORIES = [
   {
     id: "dining",
     name: "Dining",
-    icon: "/src/assets/dineCat.png",
+    icon: { dineCat },
   },
   {
     id: "salon-spa",
     name: "Salon/Spa",
-    icon: "/src/assets/salonCat.png",
+    icon: { salonCat },
   },
   {
     id: "entertainment",
     name: "Entertainment",
-    icon: "/src/assets/EntCat.png",
+    icon: { EntCat },
   },
   {
     id: "cleaning",
     name: "Cleaning",
-    icon: "/src/assets/cleanCat.png",
+    icon: { cleanCat },
   },
 ];

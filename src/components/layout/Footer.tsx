@@ -1,12 +1,12 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
-
+import logo from "@/assets/logo.png";
 export function Footer() {
   return (
     <footer className="bg-white py-6 mt-auto">
       <div className="max-w-screen-xl mx-auto px-8 flex flex-col lg:flex-row">
         <div className="lg:pr-16">
           <img
-            src="/src/assets/logo.png"
+            src={logo}
             alt="deelly logo"
             className="w-20 md:w-24 lg:w-80 my-5"
           />

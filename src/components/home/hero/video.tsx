@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import vid from "@/src/assets/heroVid.mp4";
 
 const VideoComponent = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
@@ -38,7 +39,7 @@ const VideoComponent = () => {
       )}
       <video
         ref={videoRef}
-        src="/src/assets/heroVid.mp4"
+        src={vid}
         muted
         className="w-full h-full object-cover"
       />

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "../ui/button";
+import appD from "@/assets/download.png";
 
 interface Stats {
   deals: number;
@@ -33,7 +34,7 @@ export function AppDownload() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="relative order-1">
               <img
-                src="/src/assets/download.png"
+                src={appD}
                 alt="Mobile app preview"
                 className="relative z-10 max-w-[180px] md:max-w-xs mx-auto"
               />

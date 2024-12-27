@@ -11,6 +11,11 @@ import {
 } from "lucide-react";
 import logo from "@/assets/logo.png";
 import flag from "@/assets/flag.png";
+import home from "@/assets/home.png";
+import service from "@/assets/service.png";
+import entertainment from "@/assets/entertainment.png";
+import salon from "@/assets/salon.png";
+import dine from "@/assets/dine.png";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
@@ -140,43 +145,27 @@ export function Header() {
             <div className="md:hidden mt-4 px-4 py-2 bg-white">
               <div className="space-y-4">
                 <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
-                  <img
-                    src="/src/assets/home.png"
-                    alt="home"
-                    className="h-7 w-7 mx-2"
-                  />
+                  <img src={home} alt="home" className="h-7 w-7 mx-2" />
                   HOME
                 </p>
                 <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
-                  <img
-                    src="/src/assets/dine.png"
-                    alt="dine"
-                    className="h-7 w-7 mx-2"
-                  />
+                  <img src={dine} alt="dine" className="h-7 w-7 mx-2" />
                   DINNING
                 </p>
                 <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
-                  <img
-                    src="/src/assets/salon.png"
-                    alt="spa"
-                    className="h-7 w-7 mx-2"
-                  />
+                  <img src={salon} alt="spa" className="h-7 w-7 mx-2" />
                   SALON/SPA
                 </p>
                 <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
                   <img
-                    src="/src/assets/entertainment.png"
+                    src={entertainment}
                     alt="entertainment"
                     className="h-7 w-7 mx-2"
                   />
                   ENTERTAINMENT
                 </p>
                 <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
-                  <img
-                    src="/src/assets/service.png"
-                    alt="services"
-                    className="h-7 w-7 mx-2"
-                  />
+                  <img src={service} alt="services" className="h-7 w-7 mx-2" />
                   HOME SERVICES
                 </p>
                 <div className="relative mb-3">
@@ -199,43 +188,27 @@ export function Header() {
           <div className="hidden md:flex pb-4  justify-between items-center mt-6 mx-4 lg:mx-20">
             <nav className="flex flex-wrap md:space-x-2 lg:space-x-10 xl:space-x-28 2xl:space-x-48 font-semibold">
               <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
-                <img
-                  src="/src/assets/home.png"
-                  alt="home"
-                  className="h-7 w-7 mx-2"
-                />
+                <img src={home} alt="home" className="h-7 w-7 mx-2" />
                 HOME
               </p>
               <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
-                <img
-                  src="/src/assets/dine.png"
-                  alt="dine"
-                  className="h-7 w-7 mx-2"
-                />
+                <img src={dine} alt="dine" className="h-7 w-7 mx-2" />
                 DINNING
               </p>
               <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
-                <img
-                  src="/src/assets/salon.png"
-                  alt="spa"
-                  className="h-7 w-7 mx-2"
-                />
+                <img src={salon} alt="spa" className="h-7 w-7 mx-2" />
                 SALON/SPA
               </p>
               <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
                 <img
-                  src="/src/assets/entertainment.png"
+                  src={entertainment}
                   alt="entertainment"
                   className="h-7 w-7 mx-2"
                 />
                 ENTERTAINMENT
               </p>
               <p className="flex items-center text-gray-700 hover:text-green-600 cursor-pointer whitespace-nowrap">
-                <img
-                  src="/src/assets/service.png"
-                  alt="services"
-                  className="h-7 w-7 mx-2"
-                />
+                <img src={service} alt="services" className="h-7 w-7 mx-2" />
                 HOME SERVICES
               </p>
             </nav>

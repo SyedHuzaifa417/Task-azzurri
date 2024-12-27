@@ -1,6 +1,7 @@
 import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import VideoWithButton from "./video";
+import hero from "@/assets/hero.png";
 
 function Hero() {
   return (
@@ -22,7 +23,7 @@ function Hero() {
             </Button>
           </div>
           <img
-            src="/src/assets/hero.png"
+            src={hero}
             alt="house"
             className="w-96 absolute bottom-20 -right-24 z-0 lg:block hidden"
           />
