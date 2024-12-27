@@ -38,7 +38,7 @@ const VideoComponent = () => {
       )}
       <video
         ref={videoRef}
-        src="/public/heroVid.mp4"
+        src="/heroVid.mp4"
         muted
         className="w-full h-full object-cover"
       />
