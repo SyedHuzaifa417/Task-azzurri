@@ -6,21 +6,21 @@ export const CATEGORIES = [
   {
     id: "dining",
     name: "Dining",
-    icon: { dineCat },
+    icon: dineCat,
   },
   {
     id: "salon-spa",
     name: "Salon/Spa",
-    icon: { salonCat },
+    icon: salonCat,
   },
   {
     id: "entertainment",
     name: "Entertainment",
-    icon: { EntCat },
+    icon: EntCat,
   },
   {
     id: "cleaning",
     name: "Cleaning",
-    icon: { cleanCat },
+    icon: cleanCat,
   },
 ];
